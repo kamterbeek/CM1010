@@ -1,2 +1,1 @@
-# CM1040
-CM1040 Final project
+#CM1010 Final project
