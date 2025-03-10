@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Visualization Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.dom.js"></script>
+    <script src="sketch.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Data Visualization Dashboard</h1>
+
+        <!-- File upload -->
+        <input type="file" id="fileInput" accept=".csv" />
+        <button id="uploadButton">Upload CSV</button>
+
+        <!-- Graph selection dropdown -->
+        <select id="graphSelect">
+            <option value="tech-diversity-gender">Tech Diversity: Gender</option>
+            <option value="pay-gap-timeseries">Pay Gap: 1997-2017</option>
+            <option value="climate-change">Climate Change</option>
+            <option value="tech-diversity-race">Tech Diversity: Race</option>
+        </select>
+
+        <div id="visualization"></div>
+    </div>
+
+    <!-- Include your external JavaScript files here if necessary -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+</body>
+</html>
