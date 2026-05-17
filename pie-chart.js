@@ -18,8 +18,8 @@ function PieChart(x, y, diameter) {
 
   this.draw = function(data, labels, colours, title) {
 
-    // Test that data is not empty and that each input array is the
-    // same length.
+    // Test that data is not empty and that each input array is the same length
+
     if (data.length == 0) {
       alert('Data has length zero!');
     } else if (![labels, colours].every((array) => {
