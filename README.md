@@ -12,7 +12,7 @@ and methods defined within each visualisation.
 
 Lines you need to complete in this case study are marked **???**.
 
-#### Tech diversity: Gender
+### Tech diversity: Gender
 
 Complete the visualisation defined in `tech-diversity-gender.js` to
 create a stacked bar chart by adding the proportion of men employed at
