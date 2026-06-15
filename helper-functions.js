@@ -1,4 +1,3 @@
-// --------------------------------------------------------------------
 // Data processing helper functions.
 
 function sum(data) {
