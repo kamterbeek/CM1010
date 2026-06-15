@@ -40,7 +40,6 @@ function stringsToNumbers (array) {
 
 // --------------------------------------------------------------------
 // Plotting helper functions
-// --------------------------------------------------------------------
 
 function drawAxis(layout, colour=0) {
   stroke(color(colour));
