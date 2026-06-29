@@ -99,7 +99,7 @@ function Gallery() {
       }
 
       // Enable animation in case it has been paused by the current
-      // visualisation.
+
       loop();
     }
   };
