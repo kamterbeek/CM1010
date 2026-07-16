@@ -56,7 +56,6 @@ function Gallery() {
         
     });
       
-      
     var visMenu = select('#visuals-menu');
     visMenu.child(menuItem);
 
