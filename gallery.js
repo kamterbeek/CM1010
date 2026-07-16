@@ -20,7 +20,7 @@ function Gallery() {
 
     this.visuals.push(vis);
       
-  
+
     // Create menu item.
     var menuItem = createElement('li', vis.name);
     menuItem.addClass('menu-item');
