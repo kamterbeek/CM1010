@@ -4,7 +4,6 @@ function Gallery() {
   this.selectedVisual = null;
   var self = this;
 
-
   // Add a new visualisation to the navigation bar.
   this.addVisual = function(vis) {
 
