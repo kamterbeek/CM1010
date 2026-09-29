@@ -8,7 +8,7 @@ function setup() {
     // Create a canvas to fill the content div from index.html.
     var c = createCanvas(1024, 576);
     c.parent('app');
-
+    
     // Create a new gallery object
     gallery = new Gallery();
 
