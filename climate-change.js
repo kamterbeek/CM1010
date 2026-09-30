@@ -3,7 +3,6 @@ function ClimateChange() {
   this.id = 'climate-change';
   this.xAxisLabel = 'year';
   this.yAxisLabel = '℃';
-
   
   var marginSize = 35;
   this.layout = {
