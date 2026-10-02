@@ -58,7 +58,7 @@ function handleFileUpload() {
                 header: true,
                 skipEmptyLines: true,
             });
-
+            
             // Display the CSV filename
             const filename = file.name;
             document.getElementById('visualization').innerHTML = `<h2>Data from: ${filename}</h2>`;
